@@ -1,0 +1,42 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 20px;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.onlineListDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.offlineListDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.conversationContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.conversationDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}

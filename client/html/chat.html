@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PenguinChat</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/chat.css" />
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1 class="row">PenguinChat</h1>
+      <div class="chatContainer">
+        <div class="listContainer">
+          <h2 class="row">Online</h2>
+          <ul id="onlineList"></ul>
+          <h2 class="row">Offline</h2>
+          <ul id="offlineList"></ul>
+        </div>
+        <div class="conversationContainer">
+          <h2>Send Message</h2>
+          <div class="row">
+            <input type="text" id="msg" />
+            <button id="sendButton"></button>
+          </div>
+          <h2>Message History</h2>
+          <div id="conversationDiv"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/chat.js"></script>
+  </body>
+</html>
