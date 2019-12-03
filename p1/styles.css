@@ -1,0 +1,32 @@
+/* DO NOT MODIFY THIS FILE */
+
+@font-face {
+    font-family: 'graffiti';
+    src: url('font.ttf');
+}
+
+.colorbox {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.maincontainer {
+    width: 300px
+}
+
+.mainContainer > * {
+    margin: 20px 0px;
+}
+
+.recipelist {
+    margin: 0px;
+}
+
+.graffiti {
+    font-family: graffiti;
+    font-size: 64px;
+}
+
+
+
